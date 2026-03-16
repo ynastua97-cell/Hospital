@@ -1,0 +1,8 @@
+public class Dentist implements  Doctor{
+
+    @Override
+    public void threat() {
+        System.out.println("Стоматолог удаляет зуб.");
+
+    }
+}
