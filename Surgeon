@@ -1,0 +1,8 @@
+public class Surgeon implements Doctor {
+
+    @Override
+    public void threat() {
+        System.out.println("Хирург удаляет родинку.");
+
+    }
+}
