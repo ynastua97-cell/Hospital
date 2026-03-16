@@ -1,0 +1,31 @@
+public class Main {
+    public static void main(String[] args) {
+
+        Pacient pacient1=new Pacient();
+        Plan plan=new Plan();
+        pacient1.setPlan(plan);
+        plan.setNumOfPlan(1);
+        choicePlan(pacient1);
+
+    }
+
+    public static void choicePlan(Pacient pacient){
+if (pacient.plan().getNumOfPlan()==1)
+{
+    Doctor doctor = new Surgeon();
+    pacient.setDoctor(doctor);
+    doctor.threat();
+} else
+if (pacient.plan().getNumOfPlan()==2)
+{
+    Doctor doctor = new Dentist();
+    pacient.setDoctor(doctor);
+    doctor.threat();
+} else {
+    Doctor doctor = new Therapist();
+    pacient.setDoctor(doctor);
+    doctor.threat();
+}
+
+    }
+}
