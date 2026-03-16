@@ -1,0 +1,20 @@
+public class Plan {
+
+    int numOfPlan;
+
+    public int getNumOfPlan() {
+        return numOfPlan;
+    }
+
+    public void setNumOfPlan(int numOfPlan) {
+        this.numOfPlan = numOfPlan;
+    }
+
+    public Plan(int numOfPlan) {
+        this.numOfPlan = numOfPlan;
+    }
+    public Plan()
+    {
+
+    }
+}
