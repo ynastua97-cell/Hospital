@@ -1,0 +1,29 @@
+public class Pacient {
+
+    private Doctor doctor;
+    private Plan plan;
+
+
+    public void setDoctor(Doctor doctor) {
+        this.doctor = doctor;
+    }
+
+    public Pacient(Plan plan)
+    {
+    this.plan=plan;
+    }
+
+    public Pacient()
+    {
+
+    }
+
+    public void setPlan(Plan plan) {
+        this.plan = plan;
+    }
+
+    public Plan plan()
+    {
+        return plan;
+    }
+}
